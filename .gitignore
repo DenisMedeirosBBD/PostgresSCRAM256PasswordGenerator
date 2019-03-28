@@ -10,6 +10,7 @@
 !ChangeLog
 !configure.ac
 !LICENSE
+!Makefile.am
 !NEWS
 !README
 !README.md
