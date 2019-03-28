@@ -5,7 +5,7 @@ AC_PREREQ([2.69])
 AC_INIT([pg-password-generator], [1.0], [denis.medeiros@bbd.ca])
 AC_CONFIG_SRCDIR([src/main.c])
 AC_CONFIG_HEADERS([config.h])
-AC_PREFIX_DEFAULT([/usr/local])
+AC_PREFIX_DEFAULT([/usr/bin])
 
 AM_INIT_AUTOMAKE
 

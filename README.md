@@ -45,10 +45,10 @@ $ export LDFLAGS="-L/usr/pgsql-10/lib/"
 
  ```
  
-After the make install, the program will be copied to /usr/local/bin by default, but this place can be change during the configure script. For example:
+After the make install, the program will be copied to /usr/bin by default, but this place can be change during the configure script. For example:
 
 ```
-./configure --prefix=/tmp
+./configure --prefix=/yourdirectory
 ```
 
 ### How to use the program
