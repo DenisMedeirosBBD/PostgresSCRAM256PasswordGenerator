@@ -31,10 +31,11 @@ If you are using a different location for the Postgres LibPQ, please set the fol
 
 Example for Postgres 10 installed in CentOS using Postgres repository:
 
+`$ export LIBPQ_CFLAGS="-I/usr/pgsql-10/include/"`
 `$ export LIBPQ_LIBS="pq"`
-
-`$ export CPPFLAGS=-I/usr/pgsql-10/include/`
-  
+`$ export CPPFLAGS="-I/usr/pgsql-10/include/"`
+`$ export LDFLAGS="-L/usr/pgsql-10/lib/"`
+ 
 ### How to use the program
   
 Run it by using the following structure:
