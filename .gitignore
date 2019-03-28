@@ -14,5 +14,4 @@
 !NEWS
 !README
 !README.md
-!rpmbuild/
-
+!pg-password-generator.spec
