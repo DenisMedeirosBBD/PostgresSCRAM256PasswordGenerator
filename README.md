@@ -19,13 +19,13 @@ In Red Hat/ CentOS family, the `libpq` can be installed using the Postgres offic
   
 In order to compile te program, you must install `autoconf` and `automake` tools in your operating system.
 
-`$ autoreconf -iv`
+`$ autoreconf -iv
 
-`$ ./configure`
+$ ./configure
 
-`$ make`
+$ make
 
-`$ make install`
+$ sudo make install`
 
 If you are using a different location for the Postgres LibPQ, please set the following environment variables before running the commands above.
 
