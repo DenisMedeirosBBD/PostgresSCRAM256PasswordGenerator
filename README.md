@@ -19,22 +19,33 @@ In Red Hat/ CentOS family, the `libpq` can be installed using the Postgres offic
   
 In order to compile te program, you must install `autoconf` and `automake` tools in your operating system.
 
-$ autoreconf -iv
-$ ./configure
-$ make
-$ make install
+`$ autoreconf -iv`
+
+`$ ./configure`
+
+`$ make`
+
+`$ make install`
+
+If you are using a different location for the Postgres LibPQ, please set the following environment variables before running the commands above.
+
+Example for Postgres 10 installed in CentOS using Postgres repository:
+
+`$ export LIBPQ_LIBS="pq"`
+
+`$ export CPPFLAGS=-I/usr/pgsql-10/include/`
   
-  ### How to use the program
+### How to use the program
   
-  Run it by using the following structure:
+Run it by using the following structure:
   
-  `$ ./pg-password-generator <username> <password>`
-  
-  Then the output of the program will be something like:
-  
-  ```
-  ./pg-password-generator denis 123
-  Encrypted password:
-  ----------------------------------------
-  SCRAM-SHA-256$4096:HOxSomOWe7BgQPI/4Aftyw==$7RRjYNfA1dHw0J4bnXNtXhGO+DnUE4o4QFPfOh+wc3Q=:mWCezK1R+9I564I6QO327quciMZXvTI2XnBP14kJcbs=
-  ----------------------------------------
+`$ ./pg-password-generator <username> <password>`
+ 
+Then the output of the program will be something like:
+
+```
+./pg-password-generator denis 123
+Encrypted password:
+----------------------------------------
+SCRAM-SHA-256$4096:HOxSomOWe7BgQPI/4Aftyw==$7RRjYNfA1dHw0J4bnXNtXhGO+DnUE4o4QFPfOh+wc3Q=:mWCezK1R+9I564I6QO327quciMZXvTI2XnBP14kJcbs=
+----------------------------------------
