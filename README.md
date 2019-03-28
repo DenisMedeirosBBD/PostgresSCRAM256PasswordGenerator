@@ -10,7 +10,7 @@ In Ubuntu 18.04 or newer, the `libpq` (currently version 10.6) can be installed 
 
 In Red Hat/ CentOS family, the `libpq` can be installed using the Postgres official repository (version must be > 10). For example:
   
-`$ yum -y install https://download.postgresql.org/pub/repos/yum/testing/12/redhat/rhel-7-x86_64/pgdg-centos12-12-1.noarch.rpm`
+`$ yum -y https://download.postgresql.org/pub/repos/yum/10/redhat/rhel-7-x86_64/pgdg-centos10-10-2.noarch.rpm`
  
 `$ yum update`
  
