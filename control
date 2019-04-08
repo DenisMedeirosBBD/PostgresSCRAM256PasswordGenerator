@@ -1,0 +1,11 @@
+Package: pg-password-generator
+Version: 1.0
+Maintainer: Denis Medeiros <denis.medeiros@bbd.ca>
+Section: database
+Source: https://github.com/DenisMedeirosBBD/PostgresSCRAM256PasswordGenerator/
+Homepage: https://github.com/DenisMedeirosBBD/PostgresSCRAM256PasswordGenerator/
+Architecture: all
+Priority: optional
+Depends: libpq-dev (>=10.0)
+Description: Simple password generator for Postgres >= 10 using SCRAM-SHA-256
+ Simple password generator for Postgres >= 10 using SCRAM-SHA-256
