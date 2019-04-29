@@ -51,6 +51,9 @@ There is a RPM package with that program in the releases section. It requires th
 
 `$ sudo yum install https://github.com/DenisMedeirosBBD/PostgresSCRAM256PasswordGenerator/releases/download/1.0/pg-password-generator-1.0-1.el7.x86_64.rpm`
 
+### How to install it via APT
+
+There is a DEB package  as well in the releases section and it requires the `libpq-dev`.
 
 ### How to use the program
   
